@@ -4,8 +4,6 @@
 </template>
 
 <script setup>
-import { inject } from 'vue'
-const formik = inject('formik')
 const props = defineProps({
     modelValue: {
         type: Boolean,
